@@ -1,0 +1,33 @@
+.rotation_map {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+.images {
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+img {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  animation-name: rotation_map;
+  animation-duration: 4s;
+  animation-delay: 0;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rotation_map {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
