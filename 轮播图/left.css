@@ -1,0 +1,12 @@
+.left {
+  overflow: hidden;
+}
+
+.left .images {
+  width: 2400px;
+  height: 200px;
+}
+
+.left img {
+  float: left;
+}
