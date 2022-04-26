@@ -3,10 +3,44 @@
 }
 
 .left .images {
-  width: 2400px;
+  width: 2700px;
   height: 200px;
+  animation-name: rotation_map_left;
+  animation-duration: 32s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .left img {
   float: left;
+}
+
+@keyframes rotation_map_left {
+  0% {
+    margin-left: 0;
+  }
+  12.5% {
+    margin-left: -300px;
+  }
+  25% {
+    margin-left: -600px;
+  }
+  37.5% {
+    margin-left: -900px;
+  }
+  50% {
+    margin-left: -1200px;
+  }
+  62.5% {
+    margin-left: -1500px;
+  }
+  75% {
+    margin-left: -1800px;
+  }
+  87.5% {
+    margin-left: -2100px;
+  }
+  100% {
+    margin-left: -2400px;
+  }
 }
